@@ -1,0 +1,23 @@
+h1 {
+    color: #EC6433;
+}
+
+.blue {
+    border: 2px solid #33BEF3;
+    border-radius: 25px;
+}
+
+.orange {
+    border: 2px solid #EC6433;
+    border-radius: 25px;
+}
+
+::placeholder{
+    color: #423B32;
+}
+
+.btn{
+    border-radius: 25px;
+    background-color: #33BEF3;
+    border: #33BEF3;
+}
