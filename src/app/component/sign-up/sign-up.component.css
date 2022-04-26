@@ -3,20 +3,20 @@ h1 {
 }
 
 
-.input1::placeholder {
+.signup_borderblue::placeholder {
     color: #423B32;
     text-align: center;
 }
-.input2::placeholder {
+.signup_borderorange::placeholder {
     color: #423B32;
     text-align: center;
 }
 
-.input1 {
+.signup_borderblue {
     border: 2px solid #33BEF3;
     border-radius: 25px;
 }
-.input2 {
+.signup_borderorange {
     border: 2px solid #EC6433;
     border-radius: 25px;
 }
@@ -28,8 +28,8 @@ h1 {
     border-radius: 25px;
 }
 .signup_bouton2 {
-    background-color: #EC6433;
-    border: 2px solid #EC6433;
+    background-color: #33BEF3;
+    border: 2px solid #33BEF3;
     border-radius: 25px;
 }
 .signup_bouton3 {
