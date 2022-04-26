@@ -1,0 +1,21 @@
+h1 {
+    color: #EC6433;
+}
+
+#input1::placeholder {
+    color: #423B32;
+    text-align: center;
+}
+#input2::placeholder {
+    color: #423B32;
+    text-align: center;
+}
+
+#input1 {
+    border: 2px solid #33BEF3;
+    border-radius: 25px;
+}
+#input2 {
+    border: 2px solid #EC6433;
+    border-radius: 25px;
+}
