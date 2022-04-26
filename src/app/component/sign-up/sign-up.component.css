@@ -2,7 +2,13 @@ h1 {
     color: #EC6433;
 }
 
+.signup_general{
+    width: fit-content;
+}
 
+.signup_form {
+    margin-left: 0%;
+}
 .signup_borderblue::placeholder {
     color: #423B32;
     text-align: center;
