@@ -1,0 +1,36 @@
+h1 {
+    color: #EC6433;
+}
+
+.signup_general{
+    width: fit-content;
+}
+
+.signup_form {
+    margin-left: 0%;
+}
+.signup_borderblue::placeholder {
+    color: #423B32;
+    text-align: center;
+}
+.signup_borderorange::placeholder {
+    color: #423B32;
+    text-align: center;
+}
+
+.signup_borderblue {
+    border: 2px solid #33BEF3;
+    border-radius: 25px;
+}
+.signup_borderorange {
+    border: 2px solid #EC6433;
+    border-radius: 25px;
+}
+
+
+.signup_bouton1 {
+    background-color: #33BEF3;
+    border: 2px solid #33BEF3;
+    border-radius: 25px;
+}
+
