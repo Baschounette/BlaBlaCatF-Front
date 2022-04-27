@@ -12,10 +12,12 @@ h1 {
 .signup_borderblue::placeholder {
     color: #423B32;
     text-align: center;
+    font-size: 85%;
 }
 .signup_borderorange::placeholder {
     color: #423B32;
     text-align: center;
+    font-size: 85%;
 }
 
 .signup_borderblue {
