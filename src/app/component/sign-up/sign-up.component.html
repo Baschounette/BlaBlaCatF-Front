@@ -1,44 +1,57 @@
-<div class="container shadows m-auto p-4 bg-white rounded border border-danger">
+<div class="signup_general shadow mx-auto p-4 bg-white rounded">
 
-    <h1 class="text-center mt-4 mb-4">Inscription</h1>
+    <h1 class="text-center mb-4">Inscription</h1>
 
-    <form action="">
-        <div class="border border-warning">
-            <div class="form-group row ">
-                <div class="form-group m-auto text-center col-4 pb-2 ">
-                    <input id="input1" type="text" class="form-control" placeholder="Pseudo">
+    <form>
+        <div class="signup_form p-2">
+            <div class="row">
+                <div class="form-group m-auto text-center col pb-2 ">
+                    <input type="text" class="form-control signup_borderblue" placeholder="Pseudo">
                 </div>
-                <div class="form-group m-auto text-center col-4 pb-2">
-                    <input id="input2" type="text" class="form-control" placeholder="ID Entreprise">
-                </div>
-            </div>
-    
-            <div class="form-group row">
-                <div class="form-group m-auto text-center col-4 pb-2">
-                    <input id="input2" type="text" class="form-control " placeholder="Nom">
-                </div>
-                <div class="form-group m-auto text-center col-4 pb-2">
-                    <input id="input1" type="text" class="form-control" placeholder="Prénom">
+                <div class="form-group m-auto text-center col pb-2">
+                    <input type="text" class="form-control signup_borderorange" placeholder="ID Entreprise">
                 </div>
             </div>
     
-            <div class="form-group row">
-                <div class="form-group m-auto text-center col-4 pb-2">
-                    <input id="input1" type="password" class="form-control" placeholder="Mot de passe">
+            <div class="row">
+                <div class="form-group m-auto text-center col pb-2">
+                    <input type="text" class="form-control signup_borderorange" placeholder="Nom">
                 </div>
-                <div class="form-group m-auto text-center col-4 pb-2">
-                    <input id="input2" type="password" class="form-control" placeholder="Confirmation du mot de passe">
+                <div class="form-group m-auto text-center col pb-2">
+                    <input type="text" class="form-control signup_borderblue" placeholder="Prénom">
                 </div>
             </div>
     
+            <div class="row">
+                <div class="form-group m-auto text-center col pb-2">
+                    <input type="password" class="form-control signup_borderblue" placeholder="Mot de passe">
+                </div>
+                <div class="form-group m-auto text-center col pb-2">
+                    <input type="password" class="form-control signup_borderorange" placeholder="Confirmation du mot de passe">
+                </div>
+            </div>
     
-            <div class="form-group m-auto text-center pb-2">
-                <input id="input1" type="email" class="form-control" placeholder="Adresse email">
+
+            <div class="form-group m-auto col text-center pb-2">
+                <input type="email" class="form-control signup_borderblue" placeholder="Adresse email">
             </div>
-            <div class="form-group m-auto text-center pb-2">
-                <input id="input2" type="email" class="form-control" placeholder="Confirmation de l'adresse email">
+
+            <div class="form-group m-auto col text-center pb-2">
+                <input type="email" class="form-control signup_borderorange" placeholder="Confirmation de l'adresse email">
             </div>
+
+            <div class="text-center col">
+                <button type="submit" class="signup_bouton1 btn btn-primary w-25">S'inscrire</button>
+            </div>
+
+            <div class="text-center pt-1">
+                <p>Déjà Inscrit ? <a routerLink="/login">Se Connecter</a></p>
+            </div>
+
         </div>
+        
+
+
 
 
     </form>

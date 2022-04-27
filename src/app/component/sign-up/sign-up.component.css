@@ -2,20 +2,35 @@ h1 {
     color: #EC6433;
 }
 
-#input1::placeholder {
+.signup_general{
+    width: fit-content;
+}
+
+.signup_form {
+    margin-left: 0%;
+}
+.signup_borderblue::placeholder {
     color: #423B32;
     text-align: center;
 }
-#input2::placeholder {
+.signup_borderorange::placeholder {
     color: #423B32;
     text-align: center;
 }
 
-#input1 {
+.signup_borderblue {
     border: 2px solid #33BEF3;
     border-radius: 25px;
 }
-#input2 {
+.signup_borderorange {
     border: 2px solid #EC6433;
     border-radius: 25px;
 }
+
+
+.signup_bouton1 {
+    background-color: #33BEF3;
+    border: 2px solid #33BEF3;
+    border-radius: 25px;
+}
+
