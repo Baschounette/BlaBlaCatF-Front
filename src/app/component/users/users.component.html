@@ -1,0 +1,35 @@
+<div class="col-sm" *ngFor="let user of users">
+  <div class="card shadow-sm  rounded mb-4">
+    <div class="card-body">
+      <img src="{{user.first_name}}" class="img-thumbnnail rounded-start m-auto"
+        style="object-fit: contain; width:500px;height:500px" alt="...">
+      <h5 class="card-title">{{user.last_name}}</h5>
+      <p class="card-text">{{user.username}}</p>
+      <div class="row">
+        <div class="col-sm mb-2">
+          <p class="card-text text-muted">{{user.email}}€ la barquette de 500g</p>
+        </div>
+
+        <!-- Modal qui permet d'avoir un formulaire pop up-->
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+              <h5 class="modal-title m-auto mt-4" id="exampleModalLabel">Modifier le produit</h5>
+
+              <!-- Formulaire de modification de produit-->
+
+              <!-- Fin du formulaire -->
+
+            </div>
+          </div>
+        </div>
+        <!-- Fin de la modal-->
+      </div>
+    </div>
+  </div>
+</div>
