@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ProductsService } from 'src/app/services/products.service';
+//import { ProductsService } from 'src/app/services/products.service';
 
 @Component({
   selector: 'app-login',
@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
   isAuthenticated = false;
 
   //Service à créer
-  constructor(private router: Router, private productService: ProductsService) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
   login(logForm: any){
     if(logForm.value.username == this.username && logForm.value.password == this.password){
       this.router.navigate(["courses"]);
-      this.productService.isAuthenticated = true;
+      //this.productService.isAuthenticated = true;
     }else{
       this.message = true;
     }
